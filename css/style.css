@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    background: #191919;
+    max-width: 375px;
+    width: 100%;
+}
+
+.nav ul {
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 62.08px;
+    background: #fc3e59;
+}
+
+.logo p {
+    text-align: center;
+    margin: 0;
+    line-height: 80px;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: "Octin Sports Rg";
+}
+
+.header-info {
+    background: url(../img/background-one.jpg);
+    background-size: cover;
+    max-width: 1545px;
+    width: 100%;
+}
+
+.haeder-line {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font: 17px "Helvetica";
+    text-align: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.login:hover {
+    color: #fc3e59;
+}
+
+.login:hover::before {
+    background: url(../img/men-pink.png);
+}
+
+.login::before {
+    content: '';
+    position: absolute;
+    background: url(../img/men.png);
+    width: 21px;
+    height: 20px;
+    bottom: 10%;
+    left: -35%;
+}
+
+.haeder-line a {
+    display: inline-block;
+    margin-left: 80px;
+    padding: 57px 61px 0 0;
+}
+
+.button {
+    border: solid 2px transparent;
+    text-decoration: none;
+    display: inline-block;
+    background: #fc3e59;
+    max-width: 179px;
+    padding: 26.54px 55.5px;
+    font-size: 17px;
+    color: #fff;
+    font-family: "Octin Sports Rg";
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: transparent;
+    border: solid 2px #fff;
+}
+
+.header-text .wrapper {
+    padding: 270px 270px 0 270px;
+    margin-bottom: 210px;
+}
+
+.header-text h1 {
+    margin: 0;
+    margin-bottom: 40px;
+    max-width: 492px;
+    font-size: 110px;
+    line-height: 100px;
+    color: #ffffff;
+    font-family: "Octin Sports Rg";
+}
+
+.header-text p {
+    margin: 0;
+    margin-bottom: 40px;
+    max-width: 896px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.arrow {
+    display: flex;
+    justify-content: flex-end;
+    padding: 47px 62px;
+}
+
+.arrow a {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(../img/arrow-white.png);
+}
+
+.left {
+    transform: rotate(180deg);
+    margin-right: 14px;
+}
+
+.info {
+    margin-bottom: 82px;
+}
+
+.info li a {
+    display: block;
+    text-decoration: none;
+    font: 400 17px "Poppins";
+    color: #fff;
+    padding: 23px;
+    padding-left: 112px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.info li a:hover {
+    color: #fc3e59;
+}
+
+.info li a:hover::before {
+    background: url(../img/arrow.png);
+}
+
+.info li a::before {
+    content: '';
+    position: absolute;
+    background: url(../img/arrow-white.png);
+    width: 15px;
+    height: 15px;
+    bottom: 40%;
+    left: 23%;
+}
+
+.contact li a {
+    display: block;
+    font: 400 17px "Open Sans";
+    color: #ffffff;
+    padding: 23px;
+    padding-left: 124px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.contact li a:hover {
+    padding-left: 144px;
+    background: #fc3e59;
+}
+
+.social-networks {
+    display: flex;
+    list-style: none;
+}
+
+.social-networks a {
+    transition: all 0.3s ease;
+}
+
+.social-networks a:hover {
+    background: #fc3e59;
+    border: 0.66px solid #fc3e59;
+}
+
+.tel {
+    position: relative;
+}
+
+.tel::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 25px;
+    background: url(../img/phone.png);
+    left: 22%;
+    bottom: 30%;
+}
+
+.mail {
+    position: relative;
+}
+
+.mail::before {
+    content: '';
+    position: absolute;
+    width: 24px;
+    height: 16px;
+    background: url(../img/mail.png);
+    left: 22%;
+    bottom: 35%;
+}
+
+.faceboock {
+    display: inline-block;
+    height: 17px;
+    width: 10px;
+    border: 0.66px solid #ffffff;
+    margin-left: 84px;
+    padding: 24px 28px 23px 27px;
+}
+
+.twiter {
+    display: inline-block;
+    height: 13px;
+    width: 18px;
+    border: 0.66px solid #ffffff;
+    margin-left: 21px;
+    padding: 26px 23px 24px 25px;
+}
+
+.linkedin {
+    display: inline-block;
+    height: 17px;
+    width: 18px;
+    border: 0.66px solid #fff;
+    margin-left: 21px;
+    padding: 22px 24px 25px 23px;
+}
