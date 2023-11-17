@@ -447,3 +447,37 @@ body {
 .block-img img:nth-child(1) {
     margin-bottom: 30px;
 }
+
+.our-story {
+    display: flex;
+    background: #252525;
+}
+
+.our-story .wrapper {
+    padding: 117px 65px 130px 377px;
+}
+
+.our-story .button {
+    max-width: 230px;
+    padding: 22.2px 77.5px;
+}
+
+.our-story h2 {
+    font: 50px "Octin Sports Rg";
+    color: #fff;
+    margin-bottom: 70px;
+}
+
+.our-story h2 span {
+    color: #fc3e59;
+}
+
+.our-story p {
+    margin-bottom: 75px;
+    max-width: 548px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
